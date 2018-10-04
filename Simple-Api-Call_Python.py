@@ -18,3 +18,5 @@ while True:
 		for each in json_response['results'][0]['address_components']:
 
 			print(each['long_name'])
+		else:
+  			print("There was an error please try again.")
